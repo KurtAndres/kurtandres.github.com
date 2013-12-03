@@ -1,0 +1,54 @@
+/**
+ * About Kurt Andres
+ * For kurtandrs.com
+ *
+ *	http://www.about.kurtandres.com
+ */
+
+
+body{
+	margin:0;
+	padding:0;
+}
+
+
+#aboutHome {
+	background: url(../images/about/abouthome.jpg) 50% 0 no-repeat fixed;
+	height: 1100px;
+	margin: 0 auto; 
+    width: 100%; 
+    max-width: 1920px; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,1);
+}
+#aboutInfo {
+	background: url(../images/about/aboutCode.jpg) 50% 0 no-repeat fixed;
+	height: 1200px;
+	margin: 0 auto; 
+    width: 100%; 
+    max-width: 1920px; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,1);
+}
+
+#aboutContact {
+	background: url(../images/about/aboutPhotography.jpg) 50% 0 no-repeat fixed;
+	height: 1200px;
+	margin: 0 auto; 
+    width: 100%; 
+    max-width: 1920px; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,1);
+}
+
+/* Introduction */
+
+#aboutHome article { background: url("../images/about/aboutHomeText.png") no-repeat scroll center top transparent; height: 390px; position: absolute; text-indent: -9999px; top: 295px; width: 100%; }
+
+#aboutInfo article { background: url("../images/about/aboutCodeText.png") no-repeat scroll center top transparent; height: 390px; opacity: 1.5; position: absolute; text-indent: -9999px; top: 295px; width: 100%; }
+
+#aboutContact article { background: url("../images/about/aboutPhotographyText.png") no-repeat scroll center top transparent; height: 390px; position: absolute; text-indent: -9999px; top: 200px; width: 100%; }
+
+
+
+
